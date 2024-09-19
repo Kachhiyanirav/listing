@@ -1,0 +1,80 @@
+ body{
+     font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  }
+.error{ color: red; }
+.form-block{
+  padding: 40px;
+  border: 1px solid #f5f5f5;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  width: 100%;
+  margin: 0px auto;
+  background: #fff;
+}
+h3{margin-top: 0;}
+.form-group{
+
+  margin-bottom: 30px; display: flex; flex-direction: column;}
+input{
+  border-radius: 8px;
+  padding: 15px 20px;
+  border: 1px solid #ccd3d5;
+}
+  .error {
+      border: 2px solid red;
+    }
+    .error-message {
+      color: red;
+    }
+
+    select{
+  border-radius: 8px;
+  padding: 15px 20px;
+  border: 1px solid #ccd3d5;
+  margin-bottom: 20px;
+}
+
+label{ font-size: 14px; font-weight: 600; margin-bottom: 10px; }
+.btn-orange{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    border-width: 1px;
+    border-style: solid;
+    --tw-border-opacity: 1;
+    border-color: rgb(255 137 0 / var(--tw-border-opacity));
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 137 0 / var(--tw-bg-opacity));
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1rem;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    text-decoration-line: none;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+}
+
+.btn-orange:hover{
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: rgb(255 137 0 / var(--tw-text-opacity));
+}
+.form-page{
+    min-height: calc(100vh - 100px);
+    padding: 50px 16px;
+    background: #fafafa;
+    display: flex;
+    align-items: center;
+}
